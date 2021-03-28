@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    color:tomato;
+}
+p{
+    color:teal;
+}
+
+#firstHeading{
+    text-align: center;
+    color:#ecdb43;
+}
+#secondHeading{
+    text-align: center;
+    color:#72EA8A;
+}
+.logo{
+    height:50px;
+    width:50px;
+}
+.firstpara{
+    color:violet;
+    font-family:cursive
+}
+.secondpara{
+    color:rgb(238, 44, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
