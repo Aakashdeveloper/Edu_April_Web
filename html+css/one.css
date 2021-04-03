@@ -1,0 +1,75 @@
+h1{
+    font-size:30px;
+    text-align: center;
+    color: teal;
+}
+
+
+.card{
+    height:200px;
+    width:200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+#one{
+    background-color:red
+}
+#two{
+    background-color:yellow
+}
+#three{
+    background-color:hotpink
+}
+#four{
+    background-color:lightblue
+}
+#five{
+    background-color:purple
+}
+#six{
+    background-color: turquoise
+}
+
+span{
+    text-align: right;
+}
+.p{
+    text-align: right;
+}
+.text{
+    text-align: right;
+}
+img{
+    height: 50p;
+    width:50px
+}
+
+#logo{
+    font-size:30px;
+    color: red;
+}
+#social{
+    text-align: right;
+    margin-top: -80px;
+}
+
+#first{
+    height:400px;
+    width:400px;
+    background-color:lawngreen;
+    left: 40px;
+    position: relative;
+   
+    
+}
+
+#second{
+    height:200px;
+    width:200px;
+    background-color:orangered;
+    left: 40px;
+    top:80px;
+    position: relative;
+}

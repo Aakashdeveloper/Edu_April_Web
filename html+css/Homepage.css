@@ -1,0 +1,96 @@
+body{
+    margin: auto;
+}
+.ImageContainer{
+    background: url('https://i.ibb.co/Cv6Y9NL/bg.jpg');
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid gray;
+}
+
+#social{
+    text-align: right;
+}
+
+img{
+    height:50px;
+    width:50px;
+}
+
+#logo{
+    font-size:90px;
+    background-color:white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:rgb(61, 134, 243);
+    font-weight: bold;
+}
+
+#heading{
+    text-align: center;
+    color:rgb(71, 3, 3);
+    font-size: 35px;
+}
+
+.dropdown{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+select{
+    height:50px;
+    width:250px;
+    border: none;
+    border-radius:20px
+}
+
+.QuickSearchContainer{
+    margin-left:115px;
+    margin-top:50px
+}
+
+#QuickHeading{
+    color:rgb(26, 26, 98);
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block
+}
+
+#QuickSearchSubHeading{
+    color:gray;
+    font-size:20px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+    position: absolute;
+}
+
+.tileContainer{
+    height:180px;
+    width:40%;
+    margin-top:50px;
+    margin-bottom:20px;
+    box-shadow: 0px 5px 15px black;
+    display: inline-block;
+    margin-left:3%
+}
+
+.tileComponent1{
+    width:46%;
+    float: left;
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top: 20px;
+}
