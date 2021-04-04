@@ -16,3 +16,27 @@ id #
 class .
 
 https://htmlcolorcodes.com/color-picker/
+
+12 grid 
+4 col Structure
+
+xs (0-768px)
+sm (<768px)
+md (769-992)
+lg (993-1200)
+
+primary > dark blue
+success> green
+info > sky blue
+warning > orange
+danger > red
+
+
+panel
+modal
+glyphicon
+navbar
+
+forms
+carousel
+bootstarp4

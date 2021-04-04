@@ -1,0 +1,29 @@
+#one{
+    background-color:red;
+    height:200px;
+}
+#two{
+    background-color:yellow;
+    height:200px;
+}
+#three{
+    background-color:hotpink;
+    height:200px;
+}
+#four{
+    background-color:lightblue;
+    height:200px;
+}
+#five{
+    background-color:purple;
+    height:200px;
+}
+#six{
+    background-color: turquoise;
+    height:200px;
+}
+
+.glyphicon-trash{
+    color:red;
+    font-size:20px
+}
