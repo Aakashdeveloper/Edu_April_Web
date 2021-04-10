@@ -17,6 +17,7 @@ class .
 
 https://htmlcolorcodes.com/color-picker/
 
+//boostrap3
 12 grid 
 4 col Structure
 
@@ -32,11 +33,42 @@ warning > orange
 danger > red
 
 
-panel
-modal
-glyphicon
-navbar
+//boostrap4
+12 grid 
+5 col Structure
+.col-1(>576px)
+sm (<576)
+md (<768)
+lg (<992)
+xl (<1200)
 
-forms
-carousel
-bootstarp4
+primary > dark blue
+success> green
+info > sky blue
+warning > orange
+danger > red
+secondary
+dark
+light
+
+
+frontend > display part (React,angular,Vue)
+backend > logical part(like api/booking/login logout) (node,java,python)
+database > storage(mysql,oracle,mongodb)
+
+variables
+if else
+ternary 
+loop 
+array
+function
+DOM
+Event
+Form Validation
+hoisting
+clouser
+Dynamic Html 
+promise
+async await
+Geolocation
+dark/light
