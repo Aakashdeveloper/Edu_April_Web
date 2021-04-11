@@ -57,18 +57,25 @@ backend > logical part(like api/booking/login logout) (node,java,python)
 database > storage(mysql,oracle,mongodb)
 
 variables
+concat
 if else
 ternary 
-loop 
-array
 function
 DOM
+Calc 
 Event
 Form Validation
+dark/light
+regex 
+github 
+
+
+loop 
+array
 hoisting
 clouser
 Dynamic Html 
 promise
 async await
 Geolocation
-dark/light
+Jquery 

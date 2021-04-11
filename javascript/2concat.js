@@ -4,9 +4,9 @@ var b = "JavaScript"
 undefined
 a+b
 "HiJavaScript"
+
 var age = "10"
 var out = "my age is "+age
-undefined
 out
 "my age is 10"
 

@@ -1,5 +1,5 @@
 string > "dgd" "436" "dfgwer323" '35cf34'
-number >446 46464575 4.446 .45547
+number > 446 46464575 4.446 .45547
 boolean > true false
 
 es > ecma script 
@@ -31,3 +31,18 @@ typeof(d)
 
 //es6
 let a = 10
+
+
+var a = "1"
+undefined
+var b = "2"
+undefined
+a+b 
+"12"
+Number(a)+Number(b)
+3
+Number(a)
+1
+var a = "hii"
+Number(a)
+NaN > not a number
