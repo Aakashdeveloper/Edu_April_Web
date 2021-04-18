@@ -1,6 +1,11 @@
 <html>
     <head>
         <link href="Homepage.css" rel="stylesheet"/>
+        <script src="Homepage.js"></script>
+        <script>
+            window.onload=getCity()
+            window.onload= getType()
+        </script>
     </head>
     <body>
         <div class="ImageContainer">
@@ -22,17 +27,9 @@
                 Find Bèst Restaurants, Hotêls, Stäy
             </div>
             <div class="dropdown">
-                <select>
-                    <option>-----SELECT CITY-----</option>
-                    <option>Delhi</option>
-                    <option>Amsterdam</option>
-                    <option>London</option>
+                <select id="city" onChange="test()">
                 </select>
-                <select>
-                    <option>-----SELECT HOTELS-----</option>
-                    <option>Taj Palace</option>
-                    <option>Amsterel</option>
-                    <option>Holiday Inn</option>
+                <select id="hotels">
                 </select>
             </div>
         </div>
@@ -43,57 +40,7 @@
             <span id="QuickSearchSubHeading">
                 Discover Hotels With Us
             </span>
-            <div class="tileContainer">
-                <div class="tileComponent1">
-                    <img src="https://i.ibb.co/8P41bJx/business.jpg" style="height: 180px;width:100%"/>
-                </div>
-                <div class="tileComponent2">
-                    <div class="componentHeading">
-                        Business
-                    </div>
-                    <div class="componentSubHeading">
-                        Plan you Business trip with Us
-                    </div>
-                </div>
-            </div>
-            <div class="tileContainer">
-                <div class="tileComponent1">
-                    <img src="https://i.ibb.co/CVNX8NZ/holiday.jpg" style="height: 180px;width:100%"/>
-                </div>
-                <div class="tileComponent2">
-                    <div class="componentHeading">
-                        Holiday
-                    </div>
-                    <div class="componentSubHeading">
-                        Plan you Holiday trip with Us
-                    </div>
-                </div>
-            </div>
-            <div class="tileContainer">
-                <div class="tileComponent1">
-                    <img src="https://i.ibb.co/KrmBprr/travel.jpg" style="height: 180px;width:100%"/>
-                </div>
-                <div class="tileComponent2">
-                    <div class="componentHeading">
-                        Travel
-                    </div>
-                    <div class="componentSubHeading">
-                        Plan you Travel trip with Us
-                    </div>
-                </div>
-            </div>
-            <div class="tileContainer">
-                <div class="tileComponent1">
-                    <img src="https://i.ibb.co/HBc81qR/luxury.jpg" style="height: 180px;width:100%"/>
-                </div>
-                <div class="tileComponent2">
-                    <div class="componentHeading">
-                        Luxury
-                    </div>
-                    <div class="componentSubHeading">
-                        Plan you Luxury trip with Us
-                    </div>
-                </div>
+            <div id="content">
             </div>
         </div>
     </body>
